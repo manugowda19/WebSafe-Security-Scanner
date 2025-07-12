@@ -2,7 +2,7 @@
 
 A comprehensive security analysis platform that combines web vulnerability scanning and network threat detection capabilities. 
 
-- Youtube video :-  https://youtu.be/SwOTjGKdNz4
+- Youtube video :-  [click here](https://youtu.be/SwOTjGKdNz4)
 
 ## 🚀 Features
 
@@ -103,7 +103,7 @@ AI-webvulnscanner/
 
 ### Web Vulnerability Scanner
 1. Navigate to the Web Scanner page
-2. Enter a URL to scan or upload a CSV file with multiple URLs
+2. Enter a URL to scan or upload a CSV file with multiple URLs(for more test csv files [click here](https://drive.google.com/drive/folders/1ypQ5_xgWa9YRA7nQUgnY32wMeuzBLVwj?usp=sharing)
 3. Click "Start Scan" to begin vulnerability analysis
 4. View results with risk levels and detailed findings
 5. Download PDF reports for comprehensive documentation
