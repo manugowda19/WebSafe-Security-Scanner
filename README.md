@@ -83,9 +83,21 @@ webvulnscanner/
 │   │       └── network_threat_detection.html
 │   ├── views.py                      # Django views
 │   └── urls.py                       # URL routing
+│
+├── 📁 training_set_with_dataset/                       # Training datasets
+│   ├── 📁 live_network_analysis/                       # Network threat dataset
+│   │   ├── 📄 Train_Model.ipynb (25KB, 663 lines)     # Model training notebook
+│   │   └── 📁 dataset/
+│   │       └── �� cicids2017_cleaned.csv (684MB)      # CICIDS2017 dataset
+│   │
+│   └── 📁 malicus_link/                                # URL classification dataset
+│       ├── 📄 Malicious_URL_Detection_System.ipynb (3.2MB) # URL training notebook
+│       └── 📁 dataset/
+│           └── 📄 malicious_phish.csv (44MB)           # Malicious URL dataset
 ├── websafe/                          # Django project settings
 ├── requirements.txt                   # Python dependencies
-└── manage.py                         # Django management script
+└── manage.py                        # Django management script
+|__ 
 ```
 
 ## 🎯 Usage
