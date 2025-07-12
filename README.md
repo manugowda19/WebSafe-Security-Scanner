@@ -20,6 +20,8 @@ A comprehensive security analysis platform that combines web vulnerability scann
 - **Traffic Flow Analysis**: Comprehensive network flow analysis
 - **Threat Classification**: Machine learning-based threat classification with confidence scores
 
+<img width="1325" height="792" alt="Screenshot 2025-07-12 at 11 50 27 AM" src="https://github.com/user-attachments/assets/d6de4659-8f09-442b-96e2-dfd08a611b7d" />
+
 ## 🛠️ Installation
 
 1. **Clone the repository**
@@ -92,6 +94,7 @@ webvulnscanner/
 3. Click "Start Scan" to begin vulnerability analysis
 4. View results with risk levels and detailed findings
 5. Download PDF reports for comprehensive documentation
+<img width="1325" height="725" alt="Screenshot 2025-07-12 at 11 51 45 AM" src="https://github.com/user-attachments/assets/5d0e73ca-a64b-4176-acef-a797bcf667ba" />
 
 ### Network Threat Detection
 1. Navigate to the Network Detection page
@@ -99,6 +102,7 @@ webvulnscanner/
 3. View live threat detection results and statistics
 4. Monitor network traffic for malicious activities
 5. Stop detection when finished
+<img width="1328" height="780" alt="Screenshot 2025-07-12 at 11 53 42 AM" src="https://github.com/user-attachments/assets/707ee972-4f65-43f0-a749-e8b326847d1e" />
 
 ### Dashboard
 - Access the main dashboard for an overview of both systems
