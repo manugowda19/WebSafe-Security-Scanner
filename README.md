@@ -1,7 +1,8 @@
 # WebSafe Security Scanner
 
 A comprehensive security analysis platform that combines web vulnerability scanning and network threat detection capabilities. 
-Youtube video :-  https://youtu.be/SwOTjGKdNz4
+
+- Youtube video :-  https://youtu.be/SwOTjGKdNz4
 
 ## 🚀 Features
 
