@@ -29,7 +29,7 @@ A comprehensive security analysis platform that combines web vulnerability scann
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd webvulnscanner
+   cd AI-webvulnscanner
    ```
 
 2. **Create and activate virtual environment**
@@ -60,7 +60,7 @@ A comprehensive security analysis platform that combines web vulnerability scann
 ## 📁 Project Structure
 
 ```
-webvulnscanner/
+AI-webvulnscanner/
 ├── scanner/                          # Main Django app
 │   ├── ml_model/                     # Machine learning models
 │   │   ├── model_rf.pkl             # Network threat detection model
