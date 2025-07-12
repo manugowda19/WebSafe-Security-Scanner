@@ -97,7 +97,6 @@ AI-webvulnscanner/
 ├── websafe/                          # Django project settings
 ├── requirements.txt                   # Python dependencies
 └── manage.py                        # Django management script
-|__ 
 ```
 
 ## 🎯 Usage
