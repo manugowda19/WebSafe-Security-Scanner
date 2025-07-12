@@ -186,10 +186,6 @@ DEBUG = True
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## ⚠️ Disclaimer
 
 This tool is for educational and authorized security testing purposes only. Users are responsible for ensuring they have proper authorization before scanning any systems or networks.
