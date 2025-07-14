@@ -62,7 +62,7 @@ A comprehensive security analysis platform that combines web vulnerability scann
 ## 📁 Project Structure
 
 ```
-webvulnscanner_backup/
+webvulnscanner_file/
 ├── db.sqlite3                  # SQLite database for Django project data
 ├── manage.py                   # Django management script (runserver, migrations, etc.)
 ├── README.md                   # Project overview and instructions
