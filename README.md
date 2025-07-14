@@ -3,6 +3,7 @@
 A comprehensive security analysis platform that combines web vulnerability scanning and network threat detection capabilities. 
 
 - Youtube video :-  [click here](https://youtu.be/SwOTjGKdNz4)
+- In case you cannot download the file you can download from the drive :- [click here](https://drive.google.com/drive/folders/1ypQ5_xgWa9YRA7nQUgnY32wMeuzBLVwj?usp=sharing)
 
 ## 🚀 Features
 
