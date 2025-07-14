@@ -3,7 +3,8 @@
 A comprehensive security analysis platform that combines web vulnerability scanning and network threat detection capabilities. 
 
 - Youtube video :-  [click here](https://youtu.be/SwOTjGKdNz4)
-- In case you cannot download the file you can download from the drive :- [click here](https://drive.google.com/drive/folders/1ypQ5_xgWa9YRA7nQUgnY32wMeuzBLVwj?usp=sharing)
+- In case you cannot download the file you can download it from the drive :- [click here](https://drive.google.com/drive/folders/1ypQ5_xgWa9YRA7nQUgnY32wMeuzBLVwj?usp=sharing)
+- Before running the file do make sure to unzip the zip file 
 
 ## 🚀 Features
 
@@ -61,7 +62,7 @@ A comprehensive security analysis platform that combines web vulnerability scann
 ## 📁 Project Structure
 
 ```
-AI-webvulnscanner/
+webvulnscanner_file/
 ├── scanner/                          # Main Django app
 │   ├── ml_model/                     # Machine learning models
 │   │   ├── model_rf.pkl             # Network threat detection model
