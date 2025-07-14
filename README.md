@@ -31,7 +31,7 @@ A comprehensive security analysis platform that combines web vulnerability scann
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd AI-webvulnscanner
+   cd webvulnscanner_file
    ```
 
 2. **Create and activate virtual environment**
