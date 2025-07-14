@@ -62,43 +62,64 @@ A comprehensive security analysis platform that combines web vulnerability scann
 ## 📁 Project Structure
 
 ```
-webvulnscanner_file/
-├── scanner/                          # Main Django app
-│   ├── ml_model/                     # Machine learning models
-│   │   ├── model_rf.pkl             # Network threat detection model
-│   │   ├── url_classifier.pkl       # URL classification model
-│   │   ├── feature_columns.pkl      # Feature columns for ML
-│   │   └── label_encoder.pkl        # Label encoder for ML
-│   ├── realtime/                     # Network threat detection
-│   │   ├── capture.py               # Packet capture functionality
-│   │   ├── classifier.py            # ML classification
-│   │   └── features.py              # Feature extraction
-│   ├── utils/                        # Core utilities
-│   │   ├── scanner_core.py          # Web vulnerability scanner
-│   │   ├── pdf_generator.py         # PDF report generation
-│   │   └── url_classifier.py        # URL classification
-│   ├── templates/                    # HTML templates
+webvulnscanner_backup/
+├── db.sqlite3                  # SQLite database for Django project data
+├── manage.py                   # Django management script (runserver, migrations, etc.)
+├── README.md                   # Project overview and instructions
+├── requirements.txt            # Python dependencies for the project
+├── scanner/
+│   ├── __init__.py             # Marks this directory as a Python package
+│   ├── admin.py                # Django admin interface configuration for scanner app
+│   ├── apps.py                 # App configuration for scanner
+│   ├── migrations/
+│   │   └── __init__.py         # Marks migrations as a Python package
+│   ├── ml_model/
+│   │   ├── feature_columns.pkl # Saved feature column names for ML model
+│   │   ├── label_encoder.pkl   # (Likely) label encoder for ML model (not used in train_model.py)
+│   │   ├── model_rf.pkl        # (Likely) Random Forest model (not used in train_model.py)
+│   │   ├── train_model.py      # Trains and saves a URL classifier ML model
+│   │   └── url_classifier.pkl  # Saved trained URL classifier model
+│   ├── models.py               # Django models (database schema) for scanner app
+│   ├── realtime/
+│   │   ├── __init__.py         # Marks realtime as a Python package
+│   │   ├── capture.py          # (Likely) Captures network traffic in real time
+│   │   ├── classifier.py       # (Likely) Classifies real-time network data
+│   │   └── features.py         # (Likely) Feature extraction for real-time data
+│   ├── static/
 │   │   └── scanner/
-│   │       ├── base.html            # Base template
-│   │       ├── home.html            # Web scanner interface
-│   │       ├── dashboard.html       # Main dashboard
-│   │       └── network_threat_detection.html
-│   ├── views.py                      # Django views
-│   └── urls.py                       # URL routing
-│
-├── 📁 training_set_with_dataset/                       # Training datasets
-│   ├── 📁 live_network_analysis/                       # Network threat dataset
-│   │   ├── 📄 Train_Model.ipynb (25KB, 663 lines)     # Model training notebook
-│   │   └── 📁 dataset/
-│   │       └── �� cicids2017_cleaned.csv (684MB)      # CICIDS2017 dataset
-│   │
-│   └── 📁 malicus_link/                                # URL classification dataset
-│       ├── 📄 Malicious_URL_Detection_System.ipynb (3.2MB) # URL training notebook
-│       └── 📁 dataset/
-│           └── 📄 malicious_phish.csv (44MB)           # Malicious URL dataset
-├── websafe/                          # Django project settings
-├── requirements.txt                   # Python dependencies
-└── manage.py                        # Django management script
+│   │       └── style.css       # CSS styles for scanner app web pages
+│   ├── templates/
+│   │   └── scanner/
+│   │       ├── base.html       # Base HTML template for scanner app
+│   │       ├── dashboard.html  # Dashboard page template
+│   │       ├── home.html       # Home page template
+│   │       └── ...             # (Other HTML templates)
+│   ├── tests.py                # Unit tests for scanner app
+│   ├── urls.py                 # URL routing for scanner app
+│   ├── utils/
+│   │   ├── __init__.py         # Marks utils as a Python package
+│   │   ├── network_demo.py     # (Likely) Demo for network monitoring
+│   │   ├── network_monitor.py  # (Likely) Monitors network activity
+│   │   ├── pdf_generator.py    # (Likely) Generates PDF reports
+│   │   └── ...                 # (Other utility scripts)
+│   └── views.py                # Django views (web request handlers) for scanner app
+├── training_set_with_dataset/
+│   ├── live_network_analysis/
+│   │   ├── dataset/
+│   │   │   └── cicids2017_cleaned.csv # Network analysis dataset
+│   │   └── Train_Model.ipynb          # Jupyter notebook for training network analysis model
+│   └── malicus_link/
+│       ├── dataset/
+│       │   └── malicious_phish.csv    # Malicious URL dataset
+│       └── Malicious_URL_Detection_System.ipynb # Jupyter notebook for URL detection
+├── venv/                      # Python virtual environment (dependencies, binaries, etc.)
+│   └── ...                    # (Standard venv structure)
+└── websafe/
+    ├── __init__.py            # Marks websafe as a Python package
+    ├── asgi.py                # ASGI config for Django (async server)
+    ├── settings.py            # Django project settings
+    ├── urls.py                # URL routing for the whole project
+    └── wsgi.py                # WSGI config for Django (web server)
 ```
 
 ## 🎯 Usage
