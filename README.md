@@ -1,4 +1,4 @@
-# WebSafe Security Scanner
+# WebSafe Security Scanner -- V1
 
 A comprehensive security analysis platform that combines web vulnerability scanning and network threat detection capabilities. 
 
